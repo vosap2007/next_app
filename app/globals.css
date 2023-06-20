@@ -61,7 +61,12 @@ a {
   transition: all 0.2s ease-out;
 }
 
-a:active,
+.active {
+  color: #fff;
+  background-color: rgb(31 28 27);
+  border-radius: 5px;
+}
+
 a:hover {
   color: #fff;
   background-color: rgb(31 28 27);
